@@ -1,0 +1,76 @@
+.loginbox{
+    width: 350px;
+    height: 700px;
+    background-color:rgb(255, 255, 255);
+    color: #027729;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  h1{
+    margin:0;
+  }
+  
+  .loginbox p {
+    margin:0;
+    padding:0;
+    font-weight: bold;
+  }
+  
+  .loginbox input{
+    width:100%;
+    margin-bottom: 20px;
+  
+  }
+  
+  .loginbox input[type= "submit"]{
+    border:none;
+    outline:none;
+    height: 40px;
+    background: #027729;
+    color:rgb(255, 255, 255)
+  }
+  
+  .loginbox input[type= "submit"]:hover{
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: #027729;
+  }
+  
+  .loginbox a {
+    text-decoration:none;
+    font-size:14px;
+    line-height: 20px;
+    color:#027729;
+  }
+  
+  .loginbox a:hover{
+    color: #027729
+  }
+
+  .loginbox button[type= "submit"]{
+       
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border:#027729;
+    outline:#027729;
+    height: 40px;
+    background: #027729;
+    color:rgb(255, 255, 255)
+}
+
+.center button[type= "submit"]{
+       
+  border-bottom: 2px rgb(255, 255, 255);
+  border: solid 2px rgb(255, 255, 255);
+  width: 80px;
+  height: 40px;
+  background: #027729;
+  color:rgb(255, 255, 255)
+}
+

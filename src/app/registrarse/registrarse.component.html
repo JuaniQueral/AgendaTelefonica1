@@ -1,0 +1,46 @@
+<div class = "button">
+<button [routerLink]="['/verContacto']" type="submit"> Contactos </button>
+<button [routerLink]="['/agregarEditarContacto']" type="submit"> Editar </button>
+</div>
+
+<div class= "container">
+    
+      
+        <h1> Agenda Telefónica </h1>
+  
+</div>
+
+<p>
+    <body>
+
+        <div class="loginbox">
+        <h1>Iniciar Sesión</h1>
+        
+        <form action="">
+          <div class="inputs">
+            <label for="username">Nombre</label>
+          <!-- <p>Username</p> -->
+          <input type="text" name="nombre" id="nombre" autocomplete="nombre" placeholder="Nombre"
+          
+          >
+          </div>
+          <div class="inputs">
+            <label for="password">Contraseña</label>
+          <!-- <p>Password</p> -->
+          <input type="password" name="contraseña" id="contraseña" autocomplete="current-password" placeholder="Contraseña">
+          <a>La contraseña debe contener al menos 6 caracteres.</a>
+        
+      </div>
+      
+      <div>
+        <!-- <button type="submit">Log In</button> -->
+        <button type="button" routerLink="['Log_in']" >Iniciar Sesión</button>
+        <!-- <a href="#">Lost your password?</a><br> -->
+        <div><a>Crear cuenta</a></div>
+        <button type="button" [routerLink]="['/agregarEditarContacto']">Registrarse</button>
+      </div>
+        </form>
+       
+        </div>
+        </body>
+</p>
